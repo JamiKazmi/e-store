@@ -8,6 +8,8 @@ const cartItems = document.querySelector('.cart-items');
 const cartTotal = document.querySelector('.cart-total');
 const cartContent = document.querySelector('.cart-content');
 const productsDOM = document.querySelector('.products-center');
+const btns = document.querySelectorAll('.bag-btn');
+console.log(btns);
 
 // cart
 let cart = [];
