@@ -137,9 +137,6 @@ body {
 .bag-btn:hover {
   color: var(--mainWhite);
 }
-.fa-shopping-cart {
-  margin-right: 0.5rem;
-}
 .img-container:hover .bag-btn {
   transform: translateX(0);
 }
@@ -247,11 +244,6 @@ body {
   color: grey;
   cursor: pointer;
 }
-.fa-chevron-up,
-.fa-chevron-down {
-  color: var(--primaryColor);
-  cursor: pointer;
-}
 /*---------- End of Cart Item -------------------- */
 
 .cart-footer {
@@ -265,3 +257,51 @@ body {
 }
 
 /* --------------- End of Cart ---------------- */
+
+/* --------------- Icons ---------------- */
+.sprite {
+    background-image: url(../images/spritesheet.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-cart {
+    float: left;
+    margin-right: 0.5rem;
+    width: 16px;
+    height: 16px;
+    background-position: -5px -5px;
+}
+
+.sprite-delete {
+    width: 24px;
+    height: 24px;
+    background-position: -31px -5px;
+}
+
+.sprite-open-menu {
+    width: 32px;
+    height: 32px;
+    background-position: -31px -39px;
+}
+
+.sprite-retail {
+    width: 32px;
+    height: 32px;
+    background-position: -73px -5px;
+}
+
+.sprite-up-arrow {
+    width: 16px;
+    height: 16px;
+    background-position: -73px -47px;
+    cursor: pointer;
+}
+
+.sprite-down-arrow {
+    width: 16px;
+    height: 16px;
+    background-position: -5px -39px;
+    cursor: pointer;
+}
+/* --------------- End of Icons ---------------- */
